@@ -6,6 +6,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -16,13 +17,15 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     MatInputModule,
     MatToolbarModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ],
   exports: [
     MatInputModule,
     MatToolbarModule,
     MatButtonModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatCardModule
   ]
 })
 export class MaterialModule { }
