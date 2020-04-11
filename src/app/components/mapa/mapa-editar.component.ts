@@ -26,7 +26,7 @@ export class MapaEditarComponent implements OnInit {
   }
 
   guardarCambios() {
-
+    this.dialogRef.close(this.forma.value);
   }
 
   onNoClick(): void {
